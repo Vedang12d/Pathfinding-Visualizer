@@ -1,9 +1,16 @@
 # [Pathfinding Visualizer](https://pathfinder-290rq6e97-vedang12d.vercel.app/)
 
-Inspired by [Clement Mihailescu's Pathfinding Visualizer](https://clementmihailescu.github.io/Pathfinding-Visualizer/)
 Visualzation tool for Informed and Uninformed Search Algorithms
 
-## Images
+Inspired by [Clement Mihailescu's Pathfinding Visualizer](https://clementmihailescu.github.io/Pathfinding-Visualizer/)
+
+## Preview Images
+
+### A* algorithm and Recursive Division Maze
+![img1](images/astar+recdiv.png)
+
+### Breadth First Search Algorithm and Random Maze
+![img1](images/bfs+rand.png)
 
 ## Features
 
