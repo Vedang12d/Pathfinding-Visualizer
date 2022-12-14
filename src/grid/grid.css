@@ -1,0 +1,8 @@
+.grid {
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: absolute;
+  min-width: max-content;
+  min-height: max-content;
+}
