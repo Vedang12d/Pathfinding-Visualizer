@@ -40,12 +40,12 @@ Pretty much the same as the standard react application, so all the usual react-s
 git clone https://github.com/Vedang12d/Pathfinding-Visualizer.git
 ```
 
-## 2. Install the dependencies
+### 2. Install the dependencies
 ```
 npm install
 ```
 
-## 3. Start the application
+### 3. Start the application
 ```
 npm start
 ```
