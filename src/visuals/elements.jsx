@@ -198,6 +198,10 @@ export class Elements extends Component {
     }
   }
 
+  clearGrid(flag) {
+    this.state.clickClearBoard && this.props.resetGrid(flag);
+  }
+
   visualizeMaze(walls) {
     const { animationSpeedFactor } = this.state;
     const { grid } = this.props;
@@ -474,8 +478,8 @@ export class Elements extends Component {
               onClick={() => {
                 this.props.disableNodePlacement(true);
                 if (this.state.flag) {
+                  this.clearGrid(false);
                   this.executeMazefinder();
-                  this.state.clickClearBoard && this.props.resetGrid(false);
                 }
                 else this.executePathfinder();
               }}
@@ -487,7 +491,7 @@ export class Elements extends Component {
             <a
               href="#clear"
               onClick={() => {
-                this.state.clickClearBoard && this.props.resetGrid(false);
+                this.clearGrid(false);
               }}
             >
               Clear Board
@@ -497,7 +501,7 @@ export class Elements extends Component {
             <a
               href="#clear"
               onClick={() => {
-                this.state.clickClearBoard && this.props.resetGrid(true);
+                this.clearGrid(true);
               }}
             >
               Clear Path
